@@ -1,0 +1,188 @@
+
+.app{
+  width: 100vw;
+  height: 100vh;
+}
+
+.top {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+
+/* Left bar start */
+
+.left {
+  width: 230px;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left a, p, span {
+  color: gray;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.left a:hover {
+  color: white;
+}
+
+.left i {
+  margin-right: 10px;
+}
+
+.leftUp {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.leftUp > img {
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.nav {
+  height: 45px;
+}
+
+.left a {
+  font-weight: bold;
+  line-height: 100%;
+}
+
+.leftUp > p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.recent {
+  display: flex;
+  flex-direction: column;
+  height: 45px;
+}
+
+.recent > a {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.recent > span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+.leftDown {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+}
+
+.leftDown > a {
+  margin-top: 20px;
+}
+
+/* Navbar start */
+
+.right {
+  width: 90%;
+  height: 100%;
+  background-color: #422D50;
+}
+
+.myNavbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.myNavbar > a {
+  margin: 20px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  color: #857A8D;
+  transition: 0.5s;
+}
+
+.myNavbar > a:hover {
+  color: white;
+}
+
+/* First container start */
+
+.myContainer {
+  width: 80%;
+  margin: 2% 10% 2% 10%;
+}
+
+.title {
+  width: 100%;
+  height: 10%;
+}
+
+.title > h1 {
+  font-weight: bold;
+  color: white;
+}
+
+.box {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 222px;
+  height: 302px;
+  margin: 10px;
+}
+
+.photo {
+  width: 222px;
+  height: 222px;
+}
+
+.photo > img {
+  width: 100%;
+}
+
+.info {
+  width: 222px;
+  height: 80px;
+  padding-top: 10px;
+}
+
+.info > a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.info > p {
+  color: darkgray;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+
+.bottom {
+  width: 100%;
+  height: 10%;
+  background-color: darkgrey;
+}
