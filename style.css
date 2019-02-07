@@ -12,7 +12,8 @@
 
 .left {
   width: 230px;
-  height: 90%;
+  height: 100%;
+  padding-bottom: 5%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -103,6 +104,7 @@ background: #422D50;
 .myNavbar {
   width: 100%;
   height: 70px;
+  padding-top: 10px;
   display: flex;
   justify-content: center;
 }
@@ -181,3 +183,114 @@ background: #422D50;
   font-size: 14px;
   font-weight: bold;
 }
+
+
+/* Bottom nav start */
+
+.bottom {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  background-color: #181818;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Bottom left start */
+
+.bottomLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 17px;
+}
+
+.bottomLeft > img {
+  width: 55px;
+  height: 55px;
+}
+
+.song {
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+}
+
+#songTitle {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#songAuthor {
+  text-decoration: none;
+  color: gray;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.bottomLeft > a {
+  padding-left: 15px;
+}
+
+/* Bottom center start */
+
+.bottomCenter {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomCenterUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomCenterUp > a {
+  margin: 20px;
+}
+
+.bottomCenterDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+ .bottomCenterDown > input {
+  width: 600px;
+  background-color: red;
+}
+
+.bottomCenterDown > span {
+  color: gray;
+  margin: 5px;
+}
+
+/* Bottom right start */
+
+.bottomRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 17px;
+}
+
+.bottomRight > input {
+  width: 80px;
+}
+
+.bottomRight > a {
+  margin: 10px;
+}
+
+
+
+
+/* Finish */
