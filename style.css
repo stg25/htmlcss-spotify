@@ -1,56 +1,56 @@
+[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
 
-.app{
-  width: 100vw;
-  height: 100vh;
-}
+/* Main layout */
 
-.top {
+.app {
   width: 100%;
-  height: 90%;
   display: flex;
 }
 
-/* Left bar start */
-
 .left {
   width: 230px;
-  height: 100%;
+  height: 90%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.left a, p, span {
-  color: gray;
-  text-decoration: none;
-  transition: 0.5s;
+.fakeLeft {
+  width: 230px;
 }
 
-.left a:hover {
-  color: white;
-}
-
-.left i {
-  margin-right: 10px;
-}
+  /* Left bar  up start */
 
 .leftUp {
   width: 100%;
-  height: 90%;
   display: flex;
   flex-direction: column;
   margin-left: 25px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .leftUp > img {
-  width: 60%;
+  width: 131px;
+  height: 40px;
   margin-bottom: 30px;
 }
 
 .nav {
-  height: 45px;
+  height: 40px;
+}
+
+.left a, p, i {
+  color: gray;
+  text-decoration: none;
+  transition: 0.5s;
 }
 
 .left a {
@@ -58,48 +58,46 @@
   line-height: 100%;
 }
 
+.left a:hover {
+  color: white;
+}
+
 .leftUp > p {
   font-size: 12px;
   font-weight: bold;
 }
 
-.recent {
-  display: flex;
-  flex-direction: column;
-  height: 45px;
+.left i {
+  margin-right: 10px;
 }
 
-.recent > a {
+.recentTitle {
   font-size: 13px;
-  font-weight: bold;
 }
 
-.recent > span {
+.recentInfo {
   font-size: 12px;
-  font-weight: bold;
 }
 
+/* Left down nav start */
 
 .leftDown {
   width: 100%;
-  height: 10%;
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
-  margin-bottom: 20px;
   justify-content: flex-end;
+  padding-bottom: 20px;
+  margin-left: 25px;
 }
 
 .leftDown > a {
   margin-top: 20px;
 }
 
-/* Navbar start */
-
+/* right navbar start */
 .right {
-  width: 90%;
-  height: 100%;
-  background-color: #422D50;
+width: calc(100% - 230px);
+background: #422D50;
 }
 
 .myNavbar {
@@ -125,23 +123,28 @@
 /* First container start */
 
 .myContainer {
-  width: 80%;
-  margin: 2% 10% 2% 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 30px;
 }
 
 .title {
-  width: 100%;
-  height: 10%;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
-.title > h1 {
+.title > h2 {
   font-weight: bold;
   color: white;
 }
 
+/* Square box start */
+
 .box {
-  width: 100%;
-  height: 90%;
+  padding-left: 90px;
+  padding-right: 90px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -177,12 +180,4 @@
   color: darkgray;
   font-size: 14px;
   font-weight: bold;
-}
-
-
-
-.bottom {
-  width: 100%;
-  height: 10%;
-  background-color: darkgrey;
 }
