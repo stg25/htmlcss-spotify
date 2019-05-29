@@ -253,7 +253,7 @@ background: #422D50;
 }
 
 .bottomCenterUp > a {
-  margin: 20px;
+  margin: 10px 20px;
 }
 
 .bottomCenterDown {
@@ -289,8 +289,3 @@ background: #422D50;
 .bottomRight > a {
   margin: 10px;
 }
-
-
-
-
-/* Finish */
