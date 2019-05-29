@@ -2,7 +2,7 @@
 
 Spotify has been the first full page project after the first month at Boolean Careers
 
-## Used Tecnologies
+## Used Technologies
 
 HTML + CSS
 
